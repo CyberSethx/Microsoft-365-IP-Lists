@@ -47,11 +47,8 @@ config system external-resource
 
 If you have suggestions for improvements or encounter any issues, feel free to post here.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
+## Referejces
 
 - [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
 - [Other endpoints not included in the Microsoft 365 IP Address](https://learn.microsoft.com/en-us/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide)
