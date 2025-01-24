@@ -13,7 +13,7 @@
            
 ## 📄 Description
 
-This project provides a comprehensive list of IPv4 addresses and subnets associated with Microsoft 365 services. It aims to assist network administrators in configuring firewalls, proxies, and other network devices to allow or monitor traffic to and from Microsoft 365.
+This project provides a comprehensive list of all IPv4 addresses and subnets associated with Microsoft 365 services. It aims to assist network administrators in configuring firewalls, proxies, and other network devices to allow or monitor traffic to and from Microsoft 365.
 
 Please note that the "[Microsoft 365] additional IP list" is required if you implement Hybrid Modern Auth and use Outlook Mobile App (Autodetect).
 
