@@ -30,6 +30,7 @@ Please note that the "[Microsoft 365] additional IP list" is required if you imp
 ## Example
 
 Fortigate CLI import list :
+<pre>
 config system external-resource
  edit "[Microsoft 365] Main IP list"
      set type address
@@ -41,7 +42,7 @@ config system external-resource
      set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft_IP_Lists/refs/heads/main/%5BMicrosoft%20365%5D%20additional%20IP%20list"
      set refresh-rate 15
  next
-
+</pre>
 ## Contributing
 
 If you have suggestions for improvements or encounter any issues, feel free to post here.
