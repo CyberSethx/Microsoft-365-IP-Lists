@@ -1,15 +1,15 @@
-   _____  .__                                 _____  __    ________   ________.________ 
-  /     \ |__| ___________  ____  ___________/ ____\/  |_  \_____  \ /  _____/|   ____/ 
- /  \ /  \|  |/ ___\_  __ \/  _ \/  ___/  _ \   __\\   __\   _(__  </   __  \ |____  \  
-/    Y    \  \  \___|  | \(  <_> )___ (  <_> )  |   |  |    /       \  |__\  \/       \ 
-\____|__  /__|\___  >__|   \____/____  >____/|__|   |__|   /______  /\_____  /______  /  
-._____________  .____    .__          __                                                
-|   \______   \ |    |   |__| _______/  |_  ______                                      
-|   ||     ___/ |    |   |  |/  ___/\   __\/  ___/                                      
-|   ||    |     |    |___|  |\___ \  |  |  \___ \                                       
-|___||____|     |_______ \__/____  > |__| /____  >                                                                                                         
+  __  __ _                           __ _     _____  __  ____  
+ |  \/  (_) ___ _ __ ___  ___  ___  / _| |_  |___ / / /_| ___| 
+ | |\/| | |/ __| '__/ _ \/ __|/ _ \| |_| __|   |_ \| '_ \___ \ 
+ | |  | | | (__| | | (_) \__ \ (_) |  _| |_   ___) | (_) |__) |
+ |_|  |_|_|\___|_|  \___/|___/\___/|_|  \__| |____/ \___/____/   
+  ___ ____    _ _     _       
+ |_ _|  _ \  | (_)___| |_ ___ 
+  | || |_) | | | / __| __/ __|
+  | ||  __/  | | \__ \ |_\__ \
+ |___|_|     |_|_|___/\__|___/
+                               
            
-
 ## Description
 
 This project provides a comprehensive list of IPv4 addresses and subnets associated with Microsoft 365 services. It aims to assist network administrators in configuring firewalls, proxies, and other network devices to allow or monitor traffic to and from Microsoft 365.
@@ -40,7 +40,6 @@ config system external-resource
      set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft_IP_Lists/refs/heads/main/%5BMicrosoft%20365%5D%20additional%20IP%20list"
      set refresh-rate 15
  next
-
 
 ## Contributing
 
