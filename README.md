@@ -43,7 +43,7 @@ config system external-resource
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or encounter any issues, feel free to post here.
+If you have suggestions for improvements or encounter any issues, feel free to post here.
 
 ## License
 
