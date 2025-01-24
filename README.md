@@ -32,12 +32,12 @@ Fortigate CLI import list :
 config system external-resource
  edit "[Microsoft 365] Main IP list"
      set type address
-     set resource "https://github.com/CyberSethx/Microsoft_IP_Lists/blob/main/Microsoft%20365%20IP%20address%20ranges.txt"
+     set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft_IP_Lists/refs/heads/main/%5BMicrosoft%20365%5D%20Main%20IP%20list"
      set refresh-rate 15
  next
  edit "[Microsoft 365] additional IP list"
      set type address
-     set resource "https://github.com/CyberSethx/Microsoft_IP_Lists/blob/main/Other%20endpoints%20not%20included%20in%20the%20Microsoft%20365%20IP%20Address.txt"
+     set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft_IP_Lists/refs/heads/main/%5BMicrosoft%20365%5D%20additional%20IP%20list"
      set refresh-rate 15
  next
 
