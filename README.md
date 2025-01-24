@@ -34,12 +34,12 @@ Please note that the "[Microsoft 365] additional IP list" is required if you imp
 config system external-resource
  edit "[Microsoft 365] Main IP list"
      set type address
-     set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft_IP_Lists/refs/heads/main/%5BMicrosoft%20365%5D%20Main%20IP%20list"
+     set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft-365-IP-Lists/refs/heads/main/%5BMicrosoft%20365%5D%20Main%20IP%20list"
      set refresh-rate 15
  next
  edit "[Microsoft 365] additional IP list"
      set type address
-     set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft_IP_Lists/refs/heads/main/%5BMicrosoft%20365%5D%20additional%20IP%20list"
+     set resource "https://raw.githubusercontent.com/CyberSethx/Microsoft-365-IP-Lists/refs/heads/main/%5BMicrosoft%20365%5D%20Main%20IP%20list"
      set refresh-rate 15
  next
 </pre>
