@@ -29,7 +29,7 @@ Please note that the "[Microsoft 365] additional IP list" is required if you imp
 
 ## Example
 
-Fortigate CLI import list :
+<b>Fortigate CLI import list :</b>
 <pre>
 config system external-resource
  edit "[Microsoft 365] Main IP list"
