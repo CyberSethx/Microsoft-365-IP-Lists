@@ -27,7 +27,7 @@ Please note that the "[Microsoft 365] additional IP list" is required if you imp
 
 - You can directly point to this public lists for example as an external list on your firewall (Below is an example with Fortigate CLI but this can work with a lot more)
 
-## Example
+## Examples
 
 <b>Fortigate CLI import list :</b>
 <pre>
@@ -43,6 +43,9 @@ config system external-resource
      set refresh-rate 15
  next
 </pre>
+
+
+
 ## Contributing
 
 If you have suggestions for improvements or encounter any issues, feel free to post here.
